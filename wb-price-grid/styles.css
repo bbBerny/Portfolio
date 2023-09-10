@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+html{
+    font-family: 'Karla', sans-serif;
+}
+
+body{
+    background-color:  #E5EFF5;
+  }
+
+
+h2 {
+    font-weight: 700;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+p{
+  line-height: 1.9;
+  font-weight: 400;
+}
+
+button{
+    background-color: #C0DF34;
+    justify-content: center;
+    border: 0;
+    width: 250px;
+    height: 40px;
+    border-radius: .3rem;
+    color: white;
+    font-weight: 700;
+    box-shadow: #262631 0px 7px 7px 0px;
+  }
+
+
+.contenedor1 {
+    width: 600px; 
+    height: 400px;
+    background-color: #FFFF; 
+    text-align: center;
+    box-shadow: #8181A4 3px 0px 0px 0px;
+    display: flex;
+    flex-direction: column; 
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.cajaArriba {
+    height: 100px; 
+    background-color: #FFFF;
+    margin-bottom: 20px;
+    text-align:left;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+
+.precio {
+    display: flex;
+}
+
+.izquierda {
+    float:left;
+    flex: 1; 
+    text-align: left; 
+    height: 270px;
+    padding-left: 20px; 
+    background-color: #36bebc;
+    border-radius: 0 0 0 10px;
+}
+
+.derecha{
+  float:left;
+  flex: 1; 
+  text-align: left; 
+  padding-left: 20px; 
+  background-color: #37b2b0;
+  border-radius: 0 0 10px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.cajasAbajo {
+padding-top: 60px;
+display: flex;
+color:white;
+}
