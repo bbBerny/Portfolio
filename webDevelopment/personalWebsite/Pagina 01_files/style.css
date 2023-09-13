@@ -1,0 +1,49 @@
+        body{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        thead{
+            font-size: medium;
+        }
+        tbody{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        select{
+            font-size: large;
+        }
+
+        .header{
+            font-weight: 100;
+        }
+
+        .header~nav{
+            font-style: italic;
+        }
+
+        .header blockquote{
+            font-size: medium;
+        }
+
+        .header blockquote:hover{
+            color: yellow
+        }
+
+        .skills li::first-letter{
+            font-size: xx-large;
+        }
+
+
+        table{
+            border-color: blue;
+            border-style: solid;
+            border-width: 1px;
+        }
+
+        .highlight{
+            font-family: monospace;
+        }
+        .destination{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .destination tbody td{
+            font-style: italic;
+        }
